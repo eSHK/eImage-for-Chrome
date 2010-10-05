@@ -1,42 +1,19 @@
 {
-	// Required
 	"name": "eImage",
 	"version": "1.2",
-
-	// Recommended
 	"description": "Easily upload and share your images in xanga, forum, blog and with your friends in a fast, stable and convenient way.",
 	"icons": {
 		"16": "images/icon_16.png",
 		"48": "images/icon_48.png",
 		"128": "images/icon_128.png"
 	},
-//	"default_locale": "en",
-
-	// Pick one (or none)
 	"browser_action": {
 		"default_icon": "images/icon_19.png",
 		"popup": "HTML/popup.html"
 	},
-//	"page_action": {
-//	},
-//	"theme": {
-//	},
-
-	// Add any of these that you need
-//	"background_page": "aFile.html",
-//	"chrome_url_overrides": {
-//	},
-//	"content_scripts": [
-//	],
-//	"key": "publicKey",
-//	"minimum_chrome_version": "versionString",
-//	"options_page": "aFile.html",
 	"permissions": [
 		"tabs",
 		"http://*/*",
 		"https://*/*"
 	]
-//	"plugins": [
-//	],
-//	"update_url": "http://path/to/updateInfo.xml"
 }
